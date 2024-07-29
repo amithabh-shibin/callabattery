@@ -1,0 +1,2 @@
+[11-Mar-2017 01:15:09 America/Chicago] PHP Warning:  fsockopen(): unable to connect to mail.domain.com:25 (Connection timed out) in /home2/shanks/public_html/callabattery.ae/php/class.smtp.php on line 105
+[11-Mar-2017 01:15:10 America/Chicago] PHP Warning:  fsockopen(): unable to connect to mail.domain.com:25 (Connection timed out) in /home2/shanks/public_html/callabattery.ae/php/class.smtp.php on line 105

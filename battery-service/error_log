@@ -1,0 +1,2 @@
+[12-Mar-2023 08:55:25 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 45056 bytes) in /home4/macherintl/callabattery.ae/battery-service/includes/layout.php on line 920
+[12-Mar-2023 08:55:26 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 45056 bytes) in /home4/macherintl/callabattery.ae/battery-service/includes/layout.php on line 920
