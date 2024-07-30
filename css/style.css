@@ -220,16 +220,16 @@ h3
 
 .banner-title {
   position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Offset the title for perfect centering */
-  color: rgb(255, 255, 255); /* Change this to your desired text color */
-  font-size: 2em; /* Adjust size as needed */
-  text-align: center; /* Center the text */
-  z-index: 1; /* Ensure the text is above the image */
-  font-weight: bolder;
-  background-color: #000000;
-
+  top: 20%; /* Center vertically */
+  left: 10%; /* Center horizontally */
+  color: white; /* Text color */
+    text-align: center; /* Center the text */
+    background: linear-gradient(45deg, #ff6b6b, #f06595, #845ef7); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 2px 0; /* Margin for spacing */
+    font-family: 'Arial', sans-serif; /* Font style */
+  /* background-color: #000000; */
 }
 
 .banner-img {
@@ -781,24 +781,17 @@ font-size: 28px;
 
   .banner-title {
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset the title for perfect centering */
-    color:#ffffff; /* Change this to your desired text color */
-    font-size: 0.4em; /* Adjust size as needed */
+    top: 20%; /* Center vertically */
+    left: 10%; /* Center horizontally */
+    font-size: 15px !important; /* Adjust the size as needed */
+    color: white; /* Text color */
     text-align: center; /* Center the text */
-    z-index: 1; /* Ensure the text is above the image */
-    font-weight: bolder;
-    font-size: 15px !important;
-    background-color: #000000;
-    /* background-color: whitesmoke; */
-    
- 
-    
+    background: linear-gradient(45deg, #ff6b6b, #f06595, #845ef7); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 2px 0; /* Margin for spacing */
+    font-family: 'Arial', sans-serif; /* Font style */ 
   }
-
-
-
 
   #header {
     background-color: transparent !important;
@@ -922,5 +915,30 @@ footer .container .sec.sec.contact {
 @media (min-width:992px) and (max-width:1650px){
   .banner{
     height: 70vh;
+  }
+
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+ .banner-title{ 
+  font-size: 30px !important;
+ }
+}
+@media (min-width:602px) and (max-width:991px) {
+  .banner-title{ 
+   font-size: 17px !important;
+  }
+ }
+
+ @media (max-width:602px)  {
+  .banner-title{ 
+   font-size: 14px !important;
+   left: 5%;
+  }
+}
+@media (max-width:460px)  {
+  .banner-title{ 
+   font-size: 12px !important;
+   left: 5%;
   }
 }
