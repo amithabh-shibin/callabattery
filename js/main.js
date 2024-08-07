@@ -306,3 +306,11 @@ document.addEventListener('DOMContentLoaded', function() {
   })(jQuery);
 
 });
+
+// removeHash.js
+window.addEventListener('load', function() {
+  if (window.location.hash) {
+      history.replaceState(null, null, window.location.pathname + window.location.search);
+  }
+});
+ 
